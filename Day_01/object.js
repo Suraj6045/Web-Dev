@@ -15,8 +15,13 @@ let c = {
     skills : a.skills
 }
 
+let d = {
+    ...a   // spread a in d
+}
+
+
 let str = JSON.stringify(a);
-let d = JSON.parse(str);  // deep copy -> its called the method of serielizing and de-seriealizing
+let e = JSON.parse(str);  // deep copy -> its called the method of serielizing and de-seriealizing
 a.skills.lang[1] = "c";
 console.log(a.skills.lang);
-console.log(d.skills.lang);
+console.log(e.skills.lang);

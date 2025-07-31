@@ -1,0 +1,15 @@
+let add = (x,y) => {      // Arrow func
+    return x+y;
+}
+//                        or
+add = (x,y) => x+y;
+
+
+function add(x,y){        // normal func
+    return x+y;
+}
+
+
+add = function(x,y){      // function inside a variable
+    return x+y;
+}

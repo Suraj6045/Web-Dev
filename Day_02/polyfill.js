@@ -23,3 +23,4 @@ if(!Array.prototype.myMap){    // dont use arrow func for polyfilling , arrow fu
 let new_arr_1 = arr.myMap((x) => x*3);
 console.log(new_arr_1);
 
+
